@@ -75,11 +75,13 @@ void loop() {
 
     case TRIGGER_RELAY:
       digitalWrite(LED_STATUS, LOW);
-      digitalWrite(LED_RELAY, HIGH);
 
       digitalWrite(PIN_RELAY, HIGH);
       delay(RELAY_PULSE_INTERVAL);
       digitalWrite(PIN_RELAY, LOW);
+
+      digitalWrite(LED_RELAY, HIGH);
+
       currentState = WAIT;
       break;
 

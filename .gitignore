@@ -1,0 +1,6 @@
+.DS_Store
+
+# kicad files
+.history
+*-backups
+*.kicad_prl

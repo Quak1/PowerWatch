@@ -1,7 +1,7 @@
 const byte PIN_OPTO = 2;
-const byte PIN_RELAY = 7;
+const byte PIN_RELAY = 3;
 const byte LED_STATUS = 5;
-const byte LED_RELAY = 6;
+const byte LED_RELAY = 8;
 
 const unsigned long OUTAGE_THRESHOLD_MS = 5000UL;
 const unsigned long BLINK_INTERVAL_MS = 250UL;
